@@ -1,0 +1,10 @@
+{
+  "manifest_version": 2,
+  "version": "1.0",
+  "name": "Investopedia game rankings",
+  "description": "Displays the username in Investopedia game rankings. Hard-coded to `kamine` game for now.",
+  "content_scripts": [{
+    "js": ["content.js"],
+    "matches": ["https://www.investopedia.com/simulator/ranking/*"]
+  }]
+}
